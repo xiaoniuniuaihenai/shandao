@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ZTMXFShanDao.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ZTMXFShanDaoEnterprise.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ZTMXFXunMiaoiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>21423DDA1F6BB3AE002E8B72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21423DF31F6BB3AE002E8B72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21423DFE1F6BB3AE002E8B72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8802B1C3214BBF93006E3976</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module YPCashierPay {
+  umbrella header "YPCashierPay.h"
+
+  export *
+  module * { export * }
+}

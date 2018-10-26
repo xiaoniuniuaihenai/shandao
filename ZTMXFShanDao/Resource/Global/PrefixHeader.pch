@@ -1,0 +1,75 @@
+//
+//  PrefixHeader.pch
+//  CoreFrame
+//
+//  Created by yangpenghua on 2017/8/24.
+//  Copyright © 2017年 yangpenghua. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__ // 只被object－c文件所引用
+
+#import "YTKNetwork.h"
+#import <AFNetworking/AFNetworking.h>
+
+//  宏定义
+#import "ALAConstants.h"
+#import "NotificationContants.h"
+#import "Macros.h"
+#import "ThirdMacros.h"
+#import "TargetConfigMacros.h"
+#import "DisplayInfoView.h"
+#import "UIColor+HEX.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJExtension/MJExtension.h>
+#import "UIView+Frame.h"
+#import "UIView+Toast.h"
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UILabel+instance.h"
+#import "UIImageView+instance.h"
+#import "UIView+instance.h"
+#import "UIButton+instance.h"
+#import "FMDeviceManager.h"
+#import "NSString+md5.h"
+#import "NSString+verify.h"
+#import "ReminderMacros.h"
+#import "SVProgressHUD.h"
+#import "SVProgressHUD+addition.h"
+#import "LoginManager.h"
+#import "NSDate+Extension.h"
+#import "NSString+Additions.h"
+#import "UIView+EaseBlankPage.h"
+#import "JPUSHService.h"
+#import "FMDBHelper.h"          // 数据库操作封装工具类
+#import "LSNotificationModel+Persistence.h"
+#import "LSWebViewController.h"
+#import "LSUmengHelper.h"
+#import "NSDecimalNumber+Calculate.h"
+#import "ZTMXFButton.h"
+#import "UIButton+Addition.h"
+#import "UIImageView+Addition.h"
+/** liang */
+
+//#import "Macro.h"
+#import "XLMacro.h"
+#import <SDAutoLayout.h>
+#import "XLButton.h"
+#import "NSString+Helpers.h"
+#import "ZTMXFUMengHelper.h"
+#import "ZTMXFRoundButton.h"
+
+//氪信
+#import <CXBehaviorSDK/CreditXAgent.h>
+//后台打点
+#import "XLServerBuriedPointHelper.h"
+#endif
+
+
+
+#endif /* PrefixHeader_pch */

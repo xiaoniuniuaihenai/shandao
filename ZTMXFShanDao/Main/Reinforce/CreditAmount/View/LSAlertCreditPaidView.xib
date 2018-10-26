@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LSAlertCreditPaidView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQw-7E-IcR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJf-zJ-tWc">
+                    <rect key="frame" x="6" y="208" width="361.5" height="250"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basicsAlertBg" translatesAutoresizingMaskIntoConstraints="NO" id="7Fb-J8-mHY">
+                            <rect key="frame" x="-0.5" y="0.0" width="361.5" height="250"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10元补偿金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTq-A6-wTq">
+                            <rect key="frame" x="119" y="112" width="123.5" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="46" id="WyK-aJ-7Lm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.92549019607843142" green="0.12156862745098039" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="cTq-A6-wTq" firstAttribute="centerX" secondItem="OJf-zJ-tWc" secondAttribute="centerX" id="GOs-cW-TpK"/>
+                        <constraint firstItem="7Fb-J8-mHY" firstAttribute="centerX" secondItem="OJf-zJ-tWc" secondAttribute="centerX" id="T7p-UQ-U2D"/>
+                        <constraint firstItem="7Fb-J8-mHY" firstAttribute="width" secondItem="OJf-zJ-tWc" secondAttribute="width" id="gZx-Z5-92e"/>
+                        <constraint firstAttribute="width" secondItem="OJf-zJ-tWc" secondAttribute="height" multiplier="361:250" id="hMi-h0-ad8"/>
+                        <constraint firstItem="7Fb-J8-mHY" firstAttribute="centerY" secondItem="OJf-zJ-tWc" secondAttribute="centerY" id="jkQ-rb-bgg"/>
+                        <constraint firstItem="cTq-A6-wTq" firstAttribute="centerY" secondItem="OJf-zJ-tWc" secondAttribute="centerY" constant="10" id="n09-NK-JAO"/>
+                        <constraint firstItem="7Fb-J8-mHY" firstAttribute="height" secondItem="OJf-zJ-tWc" secondAttribute="height" id="pdf-9S-BZd"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGb-3d-HcK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="btnHideBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="7Yg-We-lRc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bQw-7E-IcR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="36D-Jq-qP3"/>
+                <constraint firstItem="OJf-zJ-tWc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="5fo-Zn-tYa"/>
+                <constraint firstItem="OJf-zJ-tWc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="361.5:375" id="5zl-WP-JoR"/>
+                <constraint firstItem="bQw-7E-IcR" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="8cX-09-PkS"/>
+                <constraint firstItem="OJf-zJ-tWc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XM7-zW-hfN"/>
+                <constraint firstItem="bQw-7E-IcR" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="ktE-Tc-JkG"/>
+                <constraint firstItem="bQw-7E-IcR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lON-DN-nry"/>
+            </constraints>
+            <connections>
+                <outlet property="btnHideBtn" destination="SGb-3d-HcK" id="1IZ-5P-C9x"/>
+                <outlet property="lbContentLb" destination="cTq-A6-wTq" id="ZTi-rD-lkd"/>
+                <outlet property="viMainView" destination="OJf-zJ-tWc" id="H4n-CE-MLC"/>
+            </connections>
+            <point key="canvasLocation" x="307.5" y="-113.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="basicsAlertBg" width="361" height="250"/>
+    </resources>
+</document>

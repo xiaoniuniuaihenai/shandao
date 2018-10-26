@@ -1,0 +1,32 @@
+//
+//  ZTMXFLoanSuccessfulAddressView.m
+//  ZTMXFXunMiaoiOS
+//
+//  Created by 陈传亮 on 2018/6/1.
+//  Copyright © 2018年 LSCredit. All rights reserved.
+//
+
+#import "ZTMXFLoanSuccessfulAddressView.h"
+
+@implementation ZTMXFLoanSuccessfulAddressView
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+    }
+    return self;
+}
+
+
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+}
+*/
+
+@end

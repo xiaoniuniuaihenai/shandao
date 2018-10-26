@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="MyAddressCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeI-Zp-DpB">
+                        <rect key="frame" x="16" y="11" width="271" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="emc-rv-RJC"/>
+                            <constraint firstAttribute="width" constant="300" id="x9h-gP-Hbp" userLabel="width = 300"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-xd-hcD">
+                        <rect key="frame" x="16" y="47" width="343" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMW-P5-6wH">
+                        <rect key="frame" x="239" y="11.5" width="120" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="pxP-Le-skb"/>
+                            <constraint firstAttribute="width" constant="120" id="wFl-ix-H6w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="823-Qt-8K1">
+                        <rect key="frame" x="4" y="76" width="367" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="4hi-2j-ORV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTg-W5-KgZ">
+                        <rect key="frame" x="16" y="88" width="90" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fMs-T6-0M9"/>
+                            <constraint firstAttribute="width" constant="90" id="p9U-Rz-GrW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="-16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="设为默认" image="XL_bill_normal">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="809-V1-3ri">
+                        <rect key="frame" x="309" y="88" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="5Sn-9R-Yg7"/>
+                            <constraint firstAttribute="height" constant="20" id="SGQ-pn-kQ1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="删除" image="XL_address_delete">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYL-hs-Qwd">
+                        <rect key="frame" x="237" y="88" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Ffk-wx-sMi"/>
+                            <constraint firstAttribute="width" constant="50" id="M1K-Jw-3In"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="编辑" image="XL_address_edit">
+                            <color key="titleColor" red="0.30196078430000001" green="0.61568627450000002" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VYL-hs-Qwd" firstAttribute="centerY" secondItem="bTg-W5-KgZ" secondAttribute="centerY" id="0Ta-Nt-G2S"/>
+                    <constraint firstItem="bTg-W5-KgZ" firstAttribute="top" secondItem="823-Qt-8K1" secondAttribute="bottom" constant="11" id="0Uc-qR-s8Q"/>
+                    <constraint firstItem="809-V1-3ri" firstAttribute="leading" secondItem="VYL-hs-Qwd" secondAttribute="trailing" constant="22" id="1Yr-8O-Tox"/>
+                    <constraint firstItem="8bd-xd-hcD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="2iC-ma-ctW"/>
+                    <constraint firstItem="bTg-W5-KgZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="7NC-sJ-zCf"/>
+                    <constraint firstItem="IeI-Zp-DpB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="8bc-Ex-7kQ"/>
+                    <constraint firstItem="IeI-Zp-DpB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="BO0-5c-ceh"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bTg-W5-KgZ" secondAttribute="bottom" constant="11" id="FGr-rB-eLq"/>
+                    <constraint firstItem="aMW-P5-6wH" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Fej-fT-388"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8bd-xd-hcD" secondAttribute="trailing" id="HE8-ks-oyV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="823-Qt-8K1" secondAttribute="trailing" constant="-12" id="QnH-Ym-tai"/>
+                    <constraint firstItem="823-Qt-8K1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-12" id="XIb-Lm-bbV"/>
+                    <constraint firstItem="8bd-xd-hcD" firstAttribute="top" secondItem="IeI-Zp-DpB" secondAttribute="bottom" constant="14" id="bWa-xb-hfN"/>
+                    <constraint firstItem="809-V1-3ri" firstAttribute="centerY" secondItem="bTg-W5-KgZ" secondAttribute="centerY" id="hWm-Nn-eXB"/>
+                    <constraint firstItem="823-Qt-8K1" firstAttribute="top" secondItem="8bd-xd-hcD" secondAttribute="bottom" constant="14" id="pNx-GT-6hp"/>
+                    <constraint firstItem="809-V1-3ri" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="taS-QR-Opv"/>
+                    <constraint firstItem="aMW-P5-6wH" firstAttribute="centerY" secondItem="IeI-Zp-DpB" secondAttribute="centerY" id="zko-js-d2g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="8bd-xd-hcD" id="4sN-Sc-Yiu"/>
+                <outlet property="defaultAddressBtn" destination="bTg-W5-KgZ" id="xoY-db-flo"/>
+                <outlet property="delateButton" destination="809-V1-3ri" id="Uiv-cO-0Pa"/>
+                <outlet property="editButton" destination="VYL-hs-Qwd" id="Bfx-aQ-80B"/>
+                <outlet property="lineLabel" destination="823-Qt-8K1" id="VK6-E4-Iq7"/>
+                <outlet property="nameLabel" destination="IeI-Zp-DpB" id="4lW-1P-nIX"/>
+                <outlet property="phoneLabel" destination="aMW-P5-6wH" id="IbB-Uv-P9x"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="74"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="XL_address_delete" width="14" height="15"/>
+        <image name="XL_address_edit" width="14" height="14"/>
+        <image name="XL_bill_normal" width="18" height="18"/>
+    </resources>
+</document>

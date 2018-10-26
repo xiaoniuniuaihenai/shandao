@@ -1,0 +1,3266 @@
+[
+  {
+    "industryId": "11",
+    "industryName": "计算机/互联网/电子商务",
+    "jobs": [
+      {
+        "jobId": "1101",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "110101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "110102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "110103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "110104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "110105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "110106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "110107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "110108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1102",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "110201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "110202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "110203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "110204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "110205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1103",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "110301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "110302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "110303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "110304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "110305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1104",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "110401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "110402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "110403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1105",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "110501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "110502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "110503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "110504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "110505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "110506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "110507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1106",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "110601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "110602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "110603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "110604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1107",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "110701",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "110702",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "110703",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "110704",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "110705",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "110706",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "110707",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "110708",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "110709",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "110710",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1108",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "110801",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "110802",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "110803",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "110804",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "110805",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "110806",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1109",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "110901",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "110902",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "110903",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1110",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "111001",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "111002",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1111",
+        "jobName": "网络管理",
+        "positions": [
+          {
+            "positionId": "111101",
+            "positionName": "系统管理员/网络管理员"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "12",
+    "industryName": "电子/通信/半导体/仪器",
+    "jobs": [
+      {
+        "jobId": "1201",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "120101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "120102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "120103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "120104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "120105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "120106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "120107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "120108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1202",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "120201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "120202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "120203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "120204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "120205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1203",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "120301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "120302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "120303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "120304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "120305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1204",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "120401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "120402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "120403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1205",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "120501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "120502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "120503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "120504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "120505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "120506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "120507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1206",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "120601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "120602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "120603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "120604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1207",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "120701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "120702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "120703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "120704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "120705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "120706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1208",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "120801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "120802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "120803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1209",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "120901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "120902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1210",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "121001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "121002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "121003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "121004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "121005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "121006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "121007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "121008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "121009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "121010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1211",
+        "jobName": "通信",
+        "positions": [
+          {
+            "positionId": "121101",
+            "positionName": "通信工程师"
+          },
+          {
+            "positionId": "121102",
+            "positionName": "高级通信工程师"
+          },
+          {
+            "positionId": "121103",
+            "positionName": "通信其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1212",
+        "jobName": "电子/电器/半导体/仪器",
+        "positions": [
+          {
+            "positionId": "121201",
+            "positionName": "电子/集成电路/仪器仪表工程师"
+          },
+          {
+            "positionId": "121202",
+            "positionName": "高级电子/集成电路/仪器仪表工程师"
+          },
+          {
+            "positionId": "121203",
+            "positionName": "激光/半导体技术"
+          },
+          {
+            "positionId": "121204",
+            "positionName": "安防系统工程师"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "13",
+    "industryName": "会计/金融/银行/保险",
+    "jobs": [
+      {
+        "jobId": "1301",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "130101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "130102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "130103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "130104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "130105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "130106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "130107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "130108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1302",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "130201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "130202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "130203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "130204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "130205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1303",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "130301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "130302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "130303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "130304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "130305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1304",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "130401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "130402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "130403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1305",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "130501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "130502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "130503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "130504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "130505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "130506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "130507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1306",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "130601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "130602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "130603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "130604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1307",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "130701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "130702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "130703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "130704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "130705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "130706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1308",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "130801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "130802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "130803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1309",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "130901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "130902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1310",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "131001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "131002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "131003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "131004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "131005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "131006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "131007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "131008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "131009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "131010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1311",
+        "jobName": "金融/证券/期货/投资",
+        "positions": [
+          {
+            "positionId": "131101",
+            "positionName": "金融/证券/期货/理财/投资顾问"
+          },
+          {
+            "positionId": "131102",
+            "positionName": "经纪人"
+          },
+          {
+            "positionId": "131103",
+            "positionName": "证券分析师"
+          },
+          {
+            "positionId": "131104",
+            "positionName": "股票/期货操盘手"
+          },
+          {
+            "positionId": "131105",
+            "positionName": "拍卖/典当"
+          },
+          {
+            "positionId": "131106",
+            "positionName": "经济研究员"
+          },
+          {
+            "positionId": "131107",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1312",
+        "jobName": "银行",
+        "positions": [
+          {
+            "positionId": "131201",
+            "positionName": "行长/副行长"
+          },
+          {
+            "positionId": "131202",
+            "positionName": "业务部门经理/主管"
+          },
+          {
+            "positionId": "131203",
+            "positionName": "信贷/信审管理"
+          },
+          {
+            "positionId": "131204",
+            "positionName": "信用卡销售"
+          },
+          {
+            "positionId": "131205",
+            "positionName": "清结算人员"
+          },
+          {
+            "positionId": "131206",
+            "positionName": "外汇交易"
+          },
+          {
+            "positionId": "131207",
+            "positionName": "银行柜员"
+          },
+          {
+            "positionId": "131208",
+            "positionName": "呼叫中心客服"
+          },
+          {
+            "positionId": "131209",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1313",
+        "jobName": "保险",
+        "positions": [
+          {
+            "positionId": "131301",
+            "positionName": "保险精算师"
+          },
+          {
+            "positionId": "131302",
+            "positionName": "保险产品经理/主管"
+          },
+          {
+            "positionId": "131303",
+            "positionName": "保险经纪人"
+          },
+          {
+            "positionId": "131304",
+            "positionName": "保险销售/业务人员"
+          },
+          {
+            "positionId": "131305",
+            "positionName": "保险内勤/培训师"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "14",
+    "industryName": "生产/营运/采购/仓储物流/贸易",
+    "jobs": [
+      {
+        "jobId": "1401",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "140101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "140102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "140103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "140104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "140105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "140106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "140107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "140108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1402",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "140201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "140202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "140203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "140204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "140205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1403",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "140301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "140302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "140303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "140304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "140305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1404",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "140401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "140402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "140403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1405",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "140501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "140502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "140503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "140504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "140505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "140506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "140507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1406",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "140601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "140602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "140603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "140604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1407",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "140701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "140702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "140703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "140704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "140705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "140706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1408",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "140801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "140802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "140803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1409",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "140901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "140902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1410",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "141001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "141002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "141003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "141004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "141005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "141006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "141007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "141008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "141009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "141010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1411",
+        "jobName": "生产/营运/技工/普工",
+        "positions": [
+          {
+            "positionId": "141101",
+            "positionName": "项目管理"
+          },
+          {
+            "positionId": "141102",
+            "positionName": "生产/营运总结"
+          },
+          {
+            "positionId": "141103",
+            "positionName": "生产/营运经理"
+          },
+          {
+            "positionId": "141104",
+            "positionName": "生产/营运专员"
+          },
+          {
+            "positionId": "141105",
+            "positionName": "车间管理"
+          },
+          {
+            "positionId": "141106",
+            "positionName": "车间工作人员"
+          },
+          {
+            "positionId": "141107",
+            "positionName": "技工/设备/普工"
+          },
+          {
+            "positionId": "141108",
+            "positionName": "技术/设备管理人员"
+          },
+          {
+            "positionId": "141109",
+            "positionName": "其他"
+          },
+          {
+            "positionId": "141110",
+            "positionName": "质量检测经理"
+          },
+          {
+            "positionId": "141111",
+            "positionName": "质量检测工程师"
+          },
+          {
+            "positionId": "141112",
+            "positionName": "质量检测主管"
+          },
+          {
+            "positionId": "141113",
+            "positionName": "设备/采购质量管理"
+          },
+          {
+            "positionId": "141114",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1412",
+        "jobName": "工程/机械/能源",
+        "positions": [
+          {
+            "positionId": "141201",
+            "positionName": "工程师"
+          },
+          {
+            "positionId": "141202",
+            "positionName": "技师"
+          },
+          {
+            "positionId": "141203",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1413",
+        "jobName": "汽车制造与销售",
+        "positions": [
+          {
+            "positionId": "141301",
+            "positionName": "维修/检测/美容"
+          },
+          {
+            "positionId": "141302",
+            "positionName": "售后服务/客户服务"
+          },
+          {
+            "positionId": "141303",
+            "positionName": "加油站工作人员"
+          },
+          {
+            "positionId": "141304",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1414",
+        "jobName": "贸易采购",
+        "positions": [
+          {
+            "positionId": "141401",
+            "positionName": "国际贸易"
+          },
+          {
+            "positionId": "141402",
+            "positionName": "贸易采购总监"
+          },
+          {
+            "positionId": "141403",
+            "positionName": "贸易采购经理/主管"
+          },
+          {
+            "positionId": "141404",
+            "positionName": "贸易采购专员"
+          },
+          {
+            "positionId": "141405",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1415",
+        "jobName": "仓储物流",
+        "positions": [
+          {
+            "positionId": "141501",
+            "positionName": "物流/仓储/运输总监"
+          },
+          {
+            "positionId": "141502",
+            "positionName": "物流/仓储/运输经理/主管"
+          },
+          {
+            "positionId": "141503",
+            "positionName": "物流/仓储/运输专员"
+          },
+          {
+            "positionId": "141504",
+            "positionName": "货运代理"
+          },
+          {
+            "positionId": "141505",
+            "positionName": "快递员"
+          },
+          {
+            "positionId": "141506",
+            "positionName": "单证员"
+          },
+          {
+            "positionId": "141507",
+            "positionName": "理货/搬运工"
+          },
+          {
+            "positionId": "141508",
+            "positionName": "调度"
+          },
+          {
+            "positionId": "141509",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1416",
+        "jobName": "其他",
+        "positions": [
+          {
+            "positionId": "141601",
+            "positionName": "其他"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "15",
+    "industryName": "生物/制药/医疗/护理",
+    "jobs": [
+      {
+        "jobId": "1501",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "150101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "150102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "150103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "150104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "150105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "150106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "150107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "150108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1502",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "150201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "150202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "150203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "150204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "150205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1503",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "150301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "150302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "150303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "150304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "150305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1504",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "150401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "150402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "150403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1505",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "150501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "150502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "150503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "150504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "150505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "150506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "150507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1506",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "150601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "150602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "150603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "150604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1507",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "150701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "150702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "150703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "150704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "150705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "150706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1508",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "150801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "150802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "150803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1509",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "150901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "150902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1510",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "151001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "151002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "151003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "151004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "151005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "151006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "151007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "151008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "151009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "151010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1511",
+        "jobName": "生物/制药",
+        "positions": [
+          {
+            "positionId": "151101",
+            "positionName": "化学分析人员"
+          },
+          {
+            "positionId": "151102",
+            "positionName": "药品/机械质量管理"
+          },
+          {
+            "positionId": "151103",
+            "positionName": "器械维修人员"
+          },
+          {
+            "positionId": "151104",
+            "positionName": "技术研发"
+          },
+          {
+            "positionId": "151105",
+            "positionName": "临床/医疗研究人员"
+          },
+          {
+            "positionId": "151106",
+            "positionName": "药品/器械生产"
+          }
+        ]
+      },
+      {
+        "jobId": "1512",
+        "jobName": "化工",
+        "positions": [
+          {
+            "positionId": "151201",
+            "positionName": "化学工程师"
+          },
+          {
+            "positionId": "151202",
+            "positionName": "化妆品研发"
+          },
+          {
+            "positionId": "151203",
+            "positionName": "造纸/涂料/配色"
+          },
+          {
+            "positionId": "151204",
+            "positionName": "食品/饮料研发"
+          },
+          {
+            "positionId": "151205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1513",
+        "jobName": "医疗/护理",
+        "positions": [
+          {
+            "positionId": "151301",
+            "positionName": "医院管理人员"
+          },
+          {
+            "positionId": "151302",
+            "positionName": "西医医生"
+          },
+          {
+            "positionId": "151303",
+            "positionName": "护士"
+          },
+          {
+            "positionId": "151304",
+            "positionName": "整形师"
+          },
+          {
+            "positionId": "151305",
+            "positionName": "放化疗"
+          },
+          {
+            "positionId": "151306",
+            "positionName": "中医医生"
+          },
+          {
+            "positionId": "151307",
+            "positionName": "兽医"
+          },
+          {
+            "positionId": "151308",
+            "positionName": "药库管理/药剂师"
+          },
+          {
+            "positionId": "151309",
+            "positionName": "营养师"
+          },
+          {
+            "positionId": "151310",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1514",
+        "jobName": "广告",
+        "positions": [
+          {
+            "positionId": "151401",
+            "positionName": "文案策划"
+          }
+        ]
+      },
+      {
+        "jobId": "1515",
+        "jobName": "媒介/公关",
+        "positions": [
+          {
+            "positionId": "151501",
+            "positionName": "媒介/公关总监"
+          },
+          {
+            "positionId": "151502",
+            "positionName": "媒介/公关经理/主管"
+          },
+          {
+            "positionId": "151503",
+            "positionName": "媒介/公关专员"
+          },
+          {
+            "positionId": "151504",
+            "positionName": "活动策划/执行"
+          },
+          {
+            "positionId": "151505",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1516",
+        "jobName": "培训/开拓",
+        "positions": [
+          {
+            "positionId": "151601",
+            "positionName": "促销督导"
+          },
+          {
+            "positionId": "151602",
+            "positionName": "促销员"
+          },
+          {
+            "positionId": "151603",
+            "positionName": "选址/开拓"
+          },
+          {
+            "positionId": "151604",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1517",
+        "jobName": "影视媒体",
+        "positions": [
+          {
+            "positionId": "151701",
+            "positionName": "影视制作"
+          },
+          {
+            "positionId": "151702",
+            "positionName": "艺术指导"
+          },
+          {
+            "positionId": "151703",
+            "positionName": "经纪人"
+          },
+          {
+            "positionId": "151704",
+            "positionName": "摄影/摄像"
+          },
+          {
+            "positionId": "151705",
+            "positionName": "灯光/音响/放映/音效"
+          },
+          {
+            "positionId": "151706",
+            "positionName": "后期制作"
+          },
+          {
+            "positionId": "151707",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1518",
+        "jobName": "艺术设计",
+        "positions": [
+          {
+            "positionId": "151801",
+            "positionName": "平面/动画设计"
+          },
+          {
+            "positionId": "151802",
+            "positionName": "工业/工艺设计"
+          },
+          {
+            "positionId": "151803",
+            "positionName": "其他"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "16",
+    "industryName": "建筑/房地产",
+    "jobs": [
+      {
+        "jobId": "1601",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "160101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "160102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "160103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "160104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "160105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "160106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "160107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "160108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1602",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "160201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "160202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "160203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "160204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "160205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1603",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "160301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "160302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "160303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "160304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "160305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1604",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "160401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "160402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "160403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1605",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "160501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "160502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "160503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "160504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "160505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "160506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "160507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1606",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "160601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "160602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "160603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "160604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1607",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "160701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "160702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "160703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "160704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "160705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "160706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1608",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "160801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "160802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "160803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1609",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "160901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "160902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1610",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "161001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "161002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "161003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "161004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "161005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "161006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "161007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "161008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "161009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "161010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1611",
+        "jobName": "建筑工程与装潢",
+        "positions": [
+          {
+            "positionId": "161101",
+            "positionName": "建筑设计"
+          },
+          {
+            "positionId": "161102",
+            "positionName": "工程师"
+          },
+          {
+            "positionId": "161103",
+            "positionName": "文职类"
+          },
+          {
+            "positionId": "161104",
+            "positionName": "预算类"
+          },
+          {
+            "positionId": "161105",
+            "positionName": "室内设计"
+          },
+          {
+            "positionId": "161106",
+            "positionName": "工程师"
+          },
+          {
+            "positionId": "161107",
+            "positionName": "工人"
+          },
+          {
+            "positionId": "161108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1612",
+        "jobName": "房地产开发",
+        "positions": [
+          {
+            "positionId": "161201",
+            "positionName": "项目/策划"
+          },
+          {
+            "positionId": "161202",
+            "positionName": "投资管理"
+          },
+          {
+            "positionId": "161203",
+            "positionName": "低产投资分析"
+          },
+          {
+            "positionId": "161204",
+            "positionName": "项目招投标"
+          },
+          {
+            "positionId": "161205",
+            "positionName": "检查人员"
+          },
+          {
+            "positionId": "161206",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1613",
+        "jobName": "物业管理",
+        "positions": [
+          {
+            "positionId": "161301",
+            "positionName": "物业管理人员"
+          },
+          {
+            "positionId": "161302",
+            "positionName": "物业执行人员"
+          },
+          {
+            "positionId": "161303",
+            "positionName": "保洁/绿化/保安/维修"
+          },
+          {
+            "positionId": "161304",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1614",
+        "jobName": "评估",
+        "positions": [
+          {
+            "positionId": "161401",
+            "positionName": "房地产评估"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "17",
+    "industryName": "翻译/咨询/法律/教育/科研",
+    "jobs": [
+      {
+        "jobId": "1701",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "170101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "170102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "170103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "170104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "170105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "170106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "170107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "170108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1702",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "170201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "170202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "170203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "170204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "170205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1703",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "170301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "170302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "170303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "170304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "170305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1704",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "170401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "170402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "170403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1705",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "170501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "170502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "170503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "170504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "170505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "170506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "170507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1706",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "170601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "170602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "170603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "170604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1707",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "170701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "170702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "170703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "170704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "170705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "170706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1708",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "170801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "170802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "170803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1709",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "170901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "170902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1710",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "171001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "171002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "171003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "171004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "171005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "171006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "171007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "171008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "171009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "171010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1711",
+        "jobName": "咨询顾问",
+        "positions": [
+          {
+            "positionId": "171101",
+            "positionName": "猎头/人才中介"
+          },
+          {
+            "positionId": "171102",
+            "positionName": "顾问总监"
+          },
+          {
+            "positionId": "171103",
+            "positionName": "顾问经理/主管"
+          },
+          {
+            "positionId": "171104",
+            "positionName": "顾问/咨询专员"
+          },
+          {
+            "positionId": "171105",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1712",
+        "jobName": "法律/法务/合规",
+        "positions": [
+          {
+            "positionId": "171201",
+            "positionName": "律师/法务/法律经理"
+          },
+          {
+            "positionId": "171202",
+            "positionName": "律师/法务/法律专员/助理"
+          },
+          {
+            "positionId": "171203",
+            "positionName": "知识产权/专利/商标"
+          },
+          {
+            "positionId": "171204",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1713",
+        "jobName": "培训",
+        "positions": [
+          {
+            "positionId": "171301",
+            "positionName": "培训讲师"
+          },
+          {
+            "positionId": "171302",
+            "positionName": "培训策划"
+          },
+          {
+            "positionId": "171303",
+            "positionName": "培训督导"
+          },
+          {
+            "positionId": "171304",
+            "positionName": "培训助理"
+          },
+          {
+            "positionId": "171305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1714",
+        "jobName": "教师",
+        "positions": [
+          {
+            "positionId": "171401",
+            "positionName": "校长"
+          },
+          {
+            "positionId": "171402",
+            "positionName": "教授"
+          },
+          {
+            "positionId": "171403",
+            "positionName": "副教授"
+          },
+          {
+            "positionId": "171404",
+            "positionName": "研究生/本科导师"
+          },
+          {
+            "positionId": "171405",
+            "positionName": "大学教师"
+          },
+          {
+            "positionId": "171406",
+            "positionName": "高中教师"
+          },
+          {
+            "positionId": "171407",
+            "positionName": "初中教师"
+          },
+          {
+            "positionId": "171408",
+            "positionName": "小学教师"
+          },
+          {
+            "positionId": "171409",
+            "positionName": "幼儿园/幼教"
+          },
+          {
+            "positionId": "171410",
+            "positionName": "助教"
+          },
+          {
+            "positionId": "171411",
+            "positionName": "职业技术教师"
+          },
+          {
+            "positionId": "171412",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1715",
+        "jobName": "科研",
+        "positions": [
+          {
+            "positionId": "171501",
+            "positionName": "科研管理人员"
+          },
+          {
+            "positionId": "171502",
+            "positionName": "科研人员"
+          }
+        ]
+      },
+      {
+        "jobId": "1716",
+        "jobName": "翻译",
+        "positions": [
+          {
+            "positionId": "171601",
+            "positionName": "翻译"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "18",
+    "industryName": "服务业",
+    "jobs": [
+      {
+        "jobId": "1801",
+        "jobName": "人事/行政",
+        "positions": [
+          {
+            "positionId": "180101",
+            "positionName": "人事/行政总监"
+          },
+          {
+            "positionId": "180102",
+            "positionName": "人事/行政经理/主管"
+          },
+          {
+            "positionId": "180103",
+            "positionName": "人事/行政专员"
+          },
+          {
+            "positionId": "180104",
+            "positionName": "客服/内勤人员"
+          },
+          {
+            "positionId": "180105",
+            "positionName": "前台接待"
+          },
+          {
+            "positionId": "180106",
+            "positionName": "培训经理/主管"
+          },
+          {
+            "positionId": "180107",
+            "positionName": "培训专员"
+          },
+          {
+            "positionId": "180108",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1802",
+        "jobName": "高级管理",
+        "positions": [
+          {
+            "positionId": "180201",
+            "positionName": "高级管理"
+          },
+          {
+            "positionId": "180202",
+            "positionName": "首席执行官CEO"
+          },
+          {
+            "positionId": "180203",
+            "positionName": "总裁/企业秘书/助理"
+          },
+          {
+            "positionId": "180204",
+            "positionName": "办事处/分支机构经理"
+          },
+          {
+            "positionId": "180205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1803",
+        "jobName": "销售/销售管理/业务/渠道",
+        "positions": [
+          {
+            "positionId": "180301",
+            "positionName": "销售/业务/渠道/客户总监"
+          },
+          {
+            "positionId": "180302",
+            "positionName": "销售/业务/渠道/客户经理"
+          },
+          {
+            "positionId": "180303",
+            "positionName": "销售/业务/渠道/客户主管"
+          },
+          {
+            "positionId": "180304",
+            "positionName": "销售/业务/渠道/客户专员"
+          },
+          {
+            "positionId": "180305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1804",
+        "jobName": "计算机硬件",
+        "positions": [
+          {
+            "positionId": "180401",
+            "positionName": "硬件工程师"
+          },
+          {
+            "positionId": "180402",
+            "positionName": "高级硬件工程师"
+          },
+          {
+            "positionId": "180403",
+            "positionName": "硬件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1805",
+        "jobName": "计算机软件/后台",
+        "positions": [
+          {
+            "positionId": "180501",
+            "positionName": "软件工程师"
+          },
+          {
+            "positionId": "180502",
+            "positionName": "高级软件工程师"
+          },
+          {
+            "positionId": "180503",
+            "positionName": "UI设计师"
+          },
+          {
+            "positionId": "180504",
+            "positionName": "算法工程师"
+          },
+          {
+            "positionId": "180505",
+            "positionName": "Java工程师"
+          },
+          {
+            "positionId": "180506",
+            "positionName": "测试工程师"
+          },
+          {
+            "positionId": "180507",
+            "positionName": "计算机软件其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1806",
+        "jobName": "架构/数据库",
+        "positions": [
+          {
+            "positionId": "180601",
+            "positionName": "数据库工程师"
+          },
+          {
+            "positionId": "180602",
+            "positionName": "高级数据工程师"
+          },
+          {
+            "positionId": "180603",
+            "positionName": "系统架构师"
+          },
+          {
+            "positionId": "180604",
+            "positionName": "高级架构师"
+          }
+        ]
+      },
+      {
+        "jobId": "1807",
+        "jobName": "运营",
+        "positions": [
+          {
+            "positionId": "180701",
+            "positionName": "互联网运营专员"
+          },
+          {
+            "positionId": "180702",
+            "positionName": "运营经理"
+          },
+          {
+            "positionId": "180703",
+            "positionName": "运营总监"
+          },
+          {
+            "positionId": "180704",
+            "positionName": "淘宝店主"
+          },
+          {
+            "positionId": "180705",
+            "positionName": "淘宝店长"
+          },
+          {
+            "positionId": "180706",
+            "positionName": "淘宝客服"
+          }
+        ]
+      },
+      {
+        "jobId": "1808",
+        "jobName": "产品",
+        "positions": [
+          {
+            "positionId": "180801",
+            "positionName": "产品经理/主管"
+          },
+          {
+            "positionId": "180802",
+            "positionName": "产品专员"
+          },
+          {
+            "positionId": "180803",
+            "positionName": "产品总监"
+          }
+        ]
+      },
+      {
+        "jobId": "1809",
+        "jobName": "设计",
+        "positions": [
+          {
+            "positionId": "180901",
+            "positionName": "美工/平面设计"
+          },
+          {
+            "positionId": "180902",
+            "positionName": "UI/UED/视觉设计师"
+          }
+        ]
+      },
+      {
+        "jobId": "1810",
+        "jobName": "财务/审计/税务",
+        "positions": [
+          {
+            "positionId": "181001",
+            "positionName": "首席CFO"
+          },
+          {
+            "positionId": "181002",
+            "positionName": "财务总监"
+          },
+          {
+            "positionId": "181003",
+            "positionName": "财务/税务经理"
+          },
+          {
+            "positionId": "181004",
+            "positionName": "财务/税务员"
+          },
+          {
+            "positionId": "181005",
+            "positionName": "高级会计师"
+          },
+          {
+            "positionId": "181006",
+            "positionName": "会计/出纳"
+          },
+          {
+            "positionId": "181007",
+            "positionName": "固定资产"
+          },
+          {
+            "positionId": "181008",
+            "positionName": "成本核算"
+          },
+          {
+            "positionId": "181009",
+            "positionName": "统计"
+          },
+          {
+            "positionId": "181010",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1811",
+        "jobName": "餐饮/酒店",
+        "positions": [
+          {
+            "positionId": "181101",
+            "positionName": "店长/经理"
+          },
+          {
+            "positionId": "181102",
+            "positionName": "大堂经理"
+          },
+          {
+            "positionId": "181103",
+            "positionName": "餐厅领班"
+          },
+          {
+            "positionId": "181104",
+            "positionName": "餐饮服务员/迎宾"
+          },
+          {
+            "positionId": "181105",
+            "positionName": "厨师长"
+          },
+          {
+            "positionId": "181106",
+            "positionName": "厨师长"
+          },
+          {
+            "positionId": "181107",
+            "positionName": "传菜员"
+          },
+          {
+            "positionId": "181108",
+            "positionName": "主管"
+          },
+          {
+            "positionId": "181109",
+            "positionName": "收银"
+          },
+          {
+            "positionId": "181110",
+            "positionName": "工人"
+          },
+          {
+            "positionId": "181111",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1812",
+        "jobName": "美容健身",
+        "positions": [
+          {
+            "positionId": "181201",
+            "positionName": "美容/健身/造型顾问"
+          },
+          {
+            "positionId": "181202",
+            "positionName": "美甲师"
+          },
+          {
+            "positionId": "181203",
+            "positionName": "技师"
+          },
+          {
+            "positionId": "181204",
+            "positionName": "宠物护理"
+          },
+          {
+            "positionId": "181205",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1813",
+        "jobName": "休闲娱乐",
+        "positions": [
+          {
+            "positionId": "181301",
+            "positionName": "模特"
+          },
+          {
+            "positionId": "181302",
+            "positionName": "司仪"
+          },
+          {
+            "positionId": "181303",
+            "positionName": "误导"
+          },
+          {
+            "positionId": "181304",
+            "positionName": "驻唱"
+          },
+          {
+            "positionId": "181305",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1814",
+        "jobName": "交通运输",
+        "positions": [
+          {
+            "positionId": "181401",
+            "positionName": "司机"
+          },
+          {
+            "positionId": "181402",
+            "positionName": "地勤"
+          },
+          {
+            "positionId": "181403",
+            "positionName": "乘务"
+          },
+          {
+            "positionId": "181404",
+            "positionName": "船务"
+          },
+          {
+            "positionId": "181405",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1815",
+        "jobName": "家政保洁",
+        "positions": [
+          {
+            "positionId": "181501",
+            "positionName": "护工"
+          },
+          {
+            "positionId": "181502",
+            "positionName": "保洁/绿化/保安/维修"
+          },
+          {
+            "positionId": "181503",
+            "positionName": "钟点工"
+          },
+          {
+            "positionId": "181504",
+            "positionName": "家电维修"
+          },
+          {
+            "positionId": "181505",
+            "positionName": "其他"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "19",
+    "industryName": "公务员/军人/政府部门",
+    "jobs": [
+      {
+        "jobId": "1901",
+        "jobName": "公务员/政府部门",
+        "positions": [
+          {
+            "positionId": "190101",
+            "positionName": "公务员/政府职员"
+          },
+          {
+            "positionId": "190102",
+            "positionName": "公务员/政府管理人员"
+          },
+          {
+            "positionId": "190103",
+            "positionName": "其他"
+          }
+        ]
+      },
+      {
+        "jobId": "1902",
+        "jobName": "军人",
+        "positions": [
+          {
+            "positionId": "190201",
+            "positionName": "军人"
+          },
+          {
+            "positionId": "190202",
+            "positionName": "警官"
+          },
+          {
+            "positionId": "190203",
+            "positionName": "其他"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "20",
+    "industryName": "小企业主",
+    "jobs": [
+      {
+        "jobId": "2001",
+        "jobName": "小企业主",
+        "positions": [
+          {
+            "positionId": "200101",
+            "positionName": "小企业主"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "21",
+    "industryName": "个体户",
+    "jobs": [
+      {
+        "jobId": "2101",
+        "jobName": "个体户",
+        "positions": [
+          {
+            "positionId": "210101",
+            "positionName": "个体户"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industryId": "22",
+    "industryName": "其他",
+    "jobs": [
+      {
+        "jobId": "2201",
+        "jobName": "其他",
+        "positions": [
+          {
+            "positionId": "220101",
+            "positionName": "其他"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 2018/1/5.
 //  Copyright © 2018年 LSCredit. All rights reserved.
-//
+// 付款详情页面
 
 #import "BaseViewController.h"
 

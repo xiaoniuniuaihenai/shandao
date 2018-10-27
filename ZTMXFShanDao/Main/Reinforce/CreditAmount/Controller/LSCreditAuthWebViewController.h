@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 17/2/23.
 //  Copyright © 2017年 讯秒. All rights reserved.
-//
+//  芝麻信用授权
 
 #import <UIKit/UIKit.h>
 @class ZhiMaCreditModel;

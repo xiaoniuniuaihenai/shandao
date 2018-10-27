@@ -53,7 +53,9 @@
 // 预发环境开始--------------
     #define EnvironmentDesc @"预发环境"
     // 域名
-    #define k_letto8_Domain @"bjibei.xyz"
+//    #define k_letto8_Domain @"bjibei.xyz"
+   // 域名
+   #define k_letto8_Domain @"47.96.2.80:8080"
 
     /** 请求证书name */
     #define CertificateName @"server"
@@ -86,7 +88,6 @@
     #define kUmengKey @"5b98f4bef29d98113f00003c"
     //   小能接待组ID
     #define kXNSettingId @"kf_10361_1536630610870"
-
     /**
     统计url
     */

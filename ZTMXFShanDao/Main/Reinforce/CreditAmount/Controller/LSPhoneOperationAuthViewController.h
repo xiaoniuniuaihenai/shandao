@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 17/2/15.
 //  Copyright © 2017年 讯秒. All rights reserved.
-//
+//  运营商认证
 
 #import <UIKit/UIKit.h>
 

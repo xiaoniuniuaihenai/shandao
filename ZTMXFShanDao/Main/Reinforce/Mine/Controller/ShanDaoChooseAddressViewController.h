@@ -4,7 +4,7 @@
 //
 //  Created by panfei mao on 2017/12/12.
 //  Copyright © 2017年 LSCredit. All rights reserved.
-//
+// 选择收货地址
 
 #import "BaseViewController.h"
 @class LSAddressModel;

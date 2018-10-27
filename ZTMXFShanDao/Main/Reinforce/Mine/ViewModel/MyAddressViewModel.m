@@ -37,7 +37,6 @@
                 [self.delegete requestDataFailure];
             }
         }
-        
     } failure:^(__kindof YTKBaseRequest *request) {
         //增加无数据展现
         if (self.delegete && [self.delegete respondsToSelector:@selector(requestDataFailure)]) {
@@ -77,7 +76,6 @@
 }
 
 -(void)requestDefaultAddressData{
-    
     DefaultAddressApi *defaultAddressApi = [[DefaultAddressApi alloc] init];
     [defaultAddressApi requestWithSuccess:^(NSDictionary *responseDict) {
         NSLog(@"%@", responseDict);

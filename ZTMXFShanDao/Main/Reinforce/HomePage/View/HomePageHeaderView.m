@@ -44,12 +44,7 @@
     [self addSubview:self.categoryCollectionView];
     [self addSubview:self.promotionScrollView];
     [self addSubview:self.gapView];
-
 }
-
-
-
-
 
 
 /** 轮播网络图片 */

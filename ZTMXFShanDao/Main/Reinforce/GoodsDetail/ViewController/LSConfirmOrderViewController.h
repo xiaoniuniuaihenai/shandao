@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 2018/1/5.
 //  Copyright © 2018年 LSCredit. All rights reserved.
-//
+//确认订单
 
 #import "BaseViewController.h"
 @class GoodsPriceInfoModel;

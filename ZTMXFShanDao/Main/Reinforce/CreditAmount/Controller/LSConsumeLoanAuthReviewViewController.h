@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 2017/12/12.
 //  Copyright © 2017年 LSCredit. All rights reserved.
-//
+//  认证结果
 
 #import "BaseViewController.h"
 

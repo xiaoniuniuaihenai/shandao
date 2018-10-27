@@ -53,12 +53,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //根据审核状态修改借-钱tabBar
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [LSBorrowMoneyViewModel changeTabBarTextAndImage];
     });
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.extendedLayoutIncludesOpaqueBars = NO;
     self.navigationItem.title = @"闪到";
+    
 //    self.fd_prefersNavigationBarHidden = YES;
     if (@available(iOS 11.0, *)) {
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;

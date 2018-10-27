@@ -4,7 +4,7 @@
 //
 //  Created by panfei mao on 2017/12/7.
 //  Copyright © 2017年 LSCredit. All rights reserved.
-//
+//  借款成功
 
 #import "BaseViewController.h"
 

@@ -4,7 +4,7 @@
 //
 //  Created by panfei mao on 2017/12/11.
 //  Copyright © 2017年 LSCredit. All rights reserved.
-//
+// 确认借款
 
 #import "BaseViewController.h"
 @class LSBorrwingCashInfoModel;

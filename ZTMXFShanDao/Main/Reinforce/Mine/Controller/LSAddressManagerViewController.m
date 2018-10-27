@@ -71,8 +71,7 @@
     if (sender.tag == 1) {
         sender.selected = !sender.selected;
         NSDictionary *paramsDict = @{@"opera":@"update",@"id":@(addressModel.addressId),@"isDefault":@(sender.selected),@"consignee":addressModel.consignee,@"consigneeMobile":addressModel.consigneeMobile,@"province":addressModel.province,@"city":addressModel.city,@"region":addressModel.region,@"detailAddress":addressModel.detailAddress};
-        [self.myAddressViewModel requestModifyAddressDataWithDict:paramsDict];
-
+            [self.myAddressViewModel requestModifyAddressDataWithDict:paramsDict];
     }else if (sender.tag == 2){
         // 点击编辑
         LSModifyAddressViewController *modifyAddressVC = [[LSModifyAddressViewController alloc] init];
@@ -122,11 +121,9 @@
     if (addressModelArray.count == 0) {
         self.addAddressButton.hidden = YES;
         self.addAddressButton.userInteractionEnabled = NO;
-
     }else{
         self.addAddressButton.hidden = NO;
         self.addAddressButton.userInteractionEnabled = YES;
-
     }
 }
 

@@ -170,7 +170,6 @@
 @property (nonatomic, copy) NSString    *warmPrompt;
 
 
-
 @property (nonatomic , copy) NSArray              * bannerImgs;
 @property (nonatomic , copy) NSArray              * titles;
 @property (nonatomic , copy) NSArray              * days;

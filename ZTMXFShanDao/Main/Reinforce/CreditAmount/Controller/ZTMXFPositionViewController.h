@@ -4,7 +4,7 @@
 //
 //  Created by panfei mao on 2018/1/2.
 //  Copyright © 2018年 LSCredit. All rights reserved.
-//
+//  选择岗位
 
 #import "BaseViewController.h"
 

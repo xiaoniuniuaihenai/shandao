@@ -337,6 +337,7 @@
 }
 //跳转到广告
 - (void)pushToAdvertisingVC{
+    //用字段判断是否要跳转web
     if ([advertisingModel.imageH5Url length] < 7) {
         return;
     }

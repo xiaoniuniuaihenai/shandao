@@ -203,7 +203,6 @@
             [titleArray addObject:kOrderButtonPay];
             [titleArray addObject:kOrderButtonCancelOrder];
         }
-        
         return titleArray;
     } else if (orderType == ConsumeLoanOrderType) {
         /** 消费贷：【1:交易成功；2:待发货；3:已发货；4订单关闭；-1：填写收货地址】 */
@@ -231,13 +230,7 @@
         }
         return titleArray;
     }
-    
     return nil;
 }
-
-
-
-
-
 
 @end

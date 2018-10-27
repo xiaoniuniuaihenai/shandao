@@ -4671,38 +4671,38 @@
 		CF3BB19920FECE5E00A11A63 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				CF3BB19A20FECE5E00A11A63 /* UIImage+Blur.m */,
-				CF3BB19B20FECE5E00A11A63 /* UIImage+BetterFace.h */,
+				CF3BB1B020FECE5E00A11A63 /* UIImage+addition.h */,
 				CF3BB19C20FECE5E00A11A63 /* UIImage+addition.m */,
-				CF3BB19D20FECE5E00A11A63 /* UIImage+Color.h */,
-				CF3BB19E20FECE5E00A11A63 /* UIImage+Merge.h */,
-				CF3BB19F20FECE5E00A11A63 /* UIImage+PDF.h */,
-				CF3BB1A020FECE5E00A11A63 /* UIImage+FileName.m */,
-				CF3BB1A120FECE5E00A11A63 /* UIImage+RoundedCorner.h */,
-				CF3BB1A220FECE5E00A11A63 /* UIImage+Resize.h */,
-				CF3BB1A320FECE5E00A11A63 /* UIImage+GIF.m */,
-				CF3BB1A420FECE5E00A11A63 /* UIImage+animatedGIF.h */,
 				CF3BB1A520FECE5E00A11A63 /* UIImage+Alpha.h */,
-				CF3BB1A620FECE5E00A11A63 /* UIImage+FX.h */,
-				CF3BB1A720FECE5E00A11A63 /* UIImage+Capture.h */,
-				CF3BB1A820FECE5E00A11A63 /* UIImage+RemoteSize.m */,
-				CF3BB1A920FECE5E00A11A63 /* UIImage+Orientation.m */,
+				CF3BB1B520FECE5E00A11A63 /* UIImage+Alpha.m */,
+				CF3BB1A420FECE5E00A11A63 /* UIImage+animatedGIF.h */,
+				CF3BB1B620FECE5E00A11A63 /* UIImage+animatedGIF.m */,
+				CF3BB19B20FECE5E00A11A63 /* UIImage+BetterFace.h */,
 				CF3BB1AA20FECE5E00A11A63 /* UIImage+BetterFace.m */,
 				CF3BB1AB20FECE5E00A11A63 /* UIImage+Blur.h */,
-				CF3BB1AC20FECE5E00A11A63 /* UIImage+FileName.h */,
-				CF3BB1AD20FECE5E00A11A63 /* UIImage+PDF.m */,
-				CF3BB1AE20FECE5E00A11A63 /* UIImage+Merge.m */,
-				CF3BB1AF20FECE5E00A11A63 /* UIImage+Color.m */,
-				CF3BB1B020FECE5E00A11A63 /* UIImage+addition.h */,
-				CF3BB1B120FECE5E00A11A63 /* UIImage+Orientation.h */,
-				CF3BB1B220FECE5E00A11A63 /* UIImage+RemoteSize.h */,
+				CF3BB19A20FECE5E00A11A63 /* UIImage+Blur.m */,
+				CF3BB1A720FECE5E00A11A63 /* UIImage+Capture.h */,
 				CF3BB1B320FECE5E00A11A63 /* UIImage+Capture.m */,
+				CF3BB19D20FECE5E00A11A63 /* UIImage+Color.h */,
+				CF3BB1AF20FECE5E00A11A63 /* UIImage+Color.m */,
+				CF3BB1AC20FECE5E00A11A63 /* UIImage+FileName.h */,
+				CF3BB1A020FECE5E00A11A63 /* UIImage+FileName.m */,
+				CF3BB1A620FECE5E00A11A63 /* UIImage+FX.h */,
 				CF3BB1B420FECE5E00A11A63 /* UIImage+FX.m */,
-				CF3BB1B520FECE5E00A11A63 /* UIImage+Alpha.m */,
-				CF3BB1B620FECE5E00A11A63 /* UIImage+animatedGIF.m */,
-				CF3BB1B720FECE5E00A11A63 /* UIImage+RoundedCorner.m */,
-				CF3BB1B820FECE5E00A11A63 /* UIImage+Resize.m */,
 				CF3BB1B920FECE5E00A11A63 /* UIImage+GIF.h */,
+				CF3BB1A320FECE5E00A11A63 /* UIImage+GIF.m */,
+				CF3BB19E20FECE5E00A11A63 /* UIImage+Merge.h */,
+				CF3BB1AE20FECE5E00A11A63 /* UIImage+Merge.m */,
+				CF3BB1B120FECE5E00A11A63 /* UIImage+Orientation.h */,
+				CF3BB1A920FECE5E00A11A63 /* UIImage+Orientation.m */,
+				CF3BB19F20FECE5E00A11A63 /* UIImage+PDF.h */,
+				CF3BB1AD20FECE5E00A11A63 /* UIImage+PDF.m */,
+				CF3BB1B220FECE5E00A11A63 /* UIImage+RemoteSize.h */,
+				CF3BB1A820FECE5E00A11A63 /* UIImage+RemoteSize.m */,
+				CF3BB1A220FECE5E00A11A63 /* UIImage+Resize.h */,
+				CF3BB1B820FECE5E00A11A63 /* UIImage+Resize.m */,
+				CF3BB1A120FECE5E00A11A63 /* UIImage+RoundedCorner.h */,
+				CF3BB1B720FECE5E00A11A63 /* UIImage+RoundedCorner.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -4987,16 +4987,16 @@
 		CF3BB26920FECE5E00A11A63 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				CF3BB26A20FECE5E00A11A63 /* NSDictionary+Additions.m */,
-				CF3BB26B20FECE5E00A11A63 /* NSString+Additions.m */,
-				CF3BB26C20FECE5E00A11A63 /* UINavigationBar+Other.m */,
-				CF3BB26D20FECE5E00A11A63 /* UIView+Administer.m */,
-				CF3BB26E20FECE5E00A11A63 /* UIButton+Administer.h */,
 				CF3BB26F20FECE5E00A11A63 /* NSDictionary+Additions.h */,
+				CF3BB26A20FECE5E00A11A63 /* NSDictionary+Additions.m */,
 				CF3BB27020FECE5E00A11A63 /* NSString+Additions.h */,
-				CF3BB27120FECE5E00A11A63 /* UINavigationBar+Other.h */,
+				CF3BB26B20FECE5E00A11A63 /* NSString+Additions.m */,
+				CF3BB26E20FECE5E00A11A63 /* UIButton+Administer.h */,
 				CF3BB27220FECE5E00A11A63 /* UIButton+Administer.m */,
+				CF3BB27120FECE5E00A11A63 /* UINavigationBar+Other.h */,
+				CF3BB26C20FECE5E00A11A63 /* UINavigationBar+Other.m */,
 				CF3BB27320FECE5E00A11A63 /* UIView+Administer.h */,
+				CF3BB26D20FECE5E00A11A63 /* UIView+Administer.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -6179,8 +6179,8 @@
 		CF3BB4C920FECE5F00A11A63 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CF3BB4CA20FECE5F00A11A63 /* ZTMXFLoanSuccessfulViewController.m */,
 				CF3BB4CB20FECE5F00A11A63 /* ZTMXFLoanSuccessfulViewController.h */,
+				CF3BB4CA20FECE5F00A11A63 /* ZTMXFLoanSuccessfulViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

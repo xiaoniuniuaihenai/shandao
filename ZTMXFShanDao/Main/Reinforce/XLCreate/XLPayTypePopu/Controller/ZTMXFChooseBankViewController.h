@@ -4,7 +4,7 @@
 //
 //  Created by 陈传亮 on 2018/6/6.
 //  Copyright © 2018年 LSCredit. All rights reserved.
-//
+//  选择支付方式
 
 #import "ZTMXFTableViewController.h"
 

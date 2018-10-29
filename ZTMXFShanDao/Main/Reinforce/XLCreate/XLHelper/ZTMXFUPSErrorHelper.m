@@ -127,7 +127,6 @@
     LSWebViewController *webVC = [[LSWebViewController alloc] init];
     webVC.webUrlStr = DefineUrlString(serviceCenter_que_first);
     [[UIViewController currentViewController].navigationController pushViewController:webVC animated:YES];
-
 }
 + (void)showWithTitle:(NSString *)title
 {

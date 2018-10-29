@@ -89,13 +89,19 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
 
     CGFloat height =  IS_IPHONEX?44:0;
     self.headerView.height = X(246)+height;
+    
+    //通过登录状态隐藏登录按钮
     if ([LoginManager loginState]) {
         [self.headerView setLoginButtonHidden:YES];
     } else {
         [self.headerView setLoginButtonHidden:NO];
     }
+    //获取我的页面数据
     [self request];
-    [self showBadge];//"我的"上面有个通知的小红点
+   
+    //"我的"上面有个通知的小红点
+    [self showBadge];
+    
 //    NSMutableArray *firstSectionDataSource = [[NSMutableArray alloc]init];
 //    [firstSectionDataSource addObjectsFromArray:![LoginManager appReviewState]?@[@{@"借款记录":@"JZ_User_Center_Record_boan"},@{@"我的认证":@"JZ_User_Center_my_certify"},@{@"优惠券":@"JZ_User_Center_ticket"},@{@"银行卡管理":@"JZ_User_Center_bank_card"}]:@[@{@"订单管理":@"JZ_User_Center_Order_Manager"},@{@"优惠券":@"JZ_User_Center_ticket"},@{@"银行卡管理":@"JZ_User_Center_bank_card"}]];
 //    self.dataSource[0] = firstSectionDataSource;
@@ -111,6 +117,7 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //UI布局
     [self configUI];
     
     //  监听退出登陆
@@ -141,6 +148,7 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
         return YES;
     }
 }
+//加载数据
 - (void)request{
     if ([LoginManager loginState]) {
         [self mineApiRequest];//获取我的页面数据
@@ -161,19 +169,23 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
     return _borrowMoneyViewModel;
 }
 
+//回到首页
 - (void)footerViewClick{
     [self cyl_tabBarController].selectedIndex = 0;
 }
 
+//点击进入消息中心
 - (void)notificationCenterButtonClick{
     if ([self loginState]) {
         LSMyMessageListViewController *messageListVC = [[LSMyMessageListViewController alloc] init];
         [self.navigationController pushViewController:messageListVC animated:YES];
     }
 }
+//退出成功获取首页数据
 - (void)logoutSuccess{
     [self.borrowMoneyViewModel requestBorrowMoneyViewData];
 }
+//展示角标
 - (void)showBadge
 {
     NSInteger unreadMessageCount = [LSNotificationModel notifi_updateAllNumNotificationInfoNotRead];
@@ -188,7 +200,7 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
         [self.tabBarController.tabBar hideBadgeOnItemIndex:2];
     }
 }
-
+//推出控制器
 - (void)pushViewControllerWithTitle:(NSString *)title
 {
     if (!title) {
@@ -253,7 +265,7 @@ static NSString *ThirdSectionCellIdentifier = @"cellForSection2";
         if ([status.authNameUnique isEqualToString:@"contacts_status"]) {
             status.authStatus = 1;
             NSString * msg = [NSString stringWithFormat:@"%@完成", status.authName];
-            [self.view makeCenterToast:msg];
+            [self.view makeCenterToast:msg];        
             [self.tableView reloadData];
             return;
         }

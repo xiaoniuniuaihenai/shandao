@@ -295,8 +295,6 @@
     [mineApi requestWithSuccess:^(NSDictionary *responseDict) {
         NSLog(@"%@", responseDict);
         if (responseDict.allValues.count>0) {
-            
-         
     //        NSString * resultcode = [responseDict[@"areacode"]description];
             _lbMobileType.hidden = NO;
     //        if ([resultcode isEqualToString:@"200"]) {

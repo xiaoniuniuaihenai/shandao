@@ -84,6 +84,7 @@
     [self loadHomePageData];
 }
 
+//隐藏头部nav头部黑线
 - (BOOL)hideNavigationBottomLine{
     return YES;
 }
@@ -165,8 +166,6 @@
 }
 
 #pragma mark - HomePageHeaderViewDelegate 轮播图点击事件
-
-
 /** 点击分类 */
 - (void)homePageHeaderViewClickCategory:(MallCategoryModel *)categoryModel{
     NSMutableDictionary *dict = [[NSMutableDictionary alloc]init];
@@ -278,7 +277,7 @@
 }
 
 
-/** 点击分类跳转 */
+/** 点击Header分类跳转 */
 - (void)homepageClickCategory:(MallCategoryModel *)categoryModel{
     //  跳转到分区
     ZTMXFGoodsCategoryListViewController *goodsCategoryVC = [[ZTMXFGoodsCategoryListViewController alloc] init];

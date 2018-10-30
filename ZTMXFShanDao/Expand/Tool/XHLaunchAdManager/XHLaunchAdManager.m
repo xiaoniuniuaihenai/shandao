@@ -53,7 +53,7 @@
     [XHLaunchAd setWaitDataDuration:1];
     //广告数据请求
     ZTMXFLSShareViewLaunchImageApi *api = [[ZTMXFLSShareViewLaunchImageApi alloc] init];
-    [api requestWithSuccess:^(NSDictionary *responseDict) {
+        [api requestWithSuccess:^(NSDictionary *responseDict) {
         NSLog(@"%@", responseDict);
         NSString *codeStr = [responseDict[@"code"] description];
         if ([codeStr isEqualToString:@"1000"]) {

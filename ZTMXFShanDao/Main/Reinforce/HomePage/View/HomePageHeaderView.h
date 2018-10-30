@@ -4,7 +4,7 @@
 //
 //  Created by yangpenghua on 2017/12/7.
 //  Copyright © 2017年 LSCredit. All rights reserved.
-//主页头部
+//  主页头部
 
 #import <UIKit/UIKit.h>
 @class MallBannerModel;

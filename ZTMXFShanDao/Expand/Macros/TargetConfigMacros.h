@@ -71,15 +71,15 @@
 
 
 //H5 测试
-//#define BaseHtmlUrl  @"http://47.96.2.80:8080"//
-///** Api 服务器 */
-//#define BaseUrlNow  @"http://47.96.2.80:8080"//
+#define BaseHtmlUrl  @"http://47.96.2.80:8080"//
+/** Api 服务器 */
+#define BaseUrlNow  @"http://47.96.2.80:8080"//
 
 
-//H5 测试
-#define BaseHtmlUrl  @"http://192.168.1.138:8080"//
-//* Api 服务器
-#define BaseUrlNow  @"http://192.168.1.138:8080"//
+////H5 测试
+//#define BaseHtmlUrl  @"http://192.168.1.138:8080"//
+////* Api 服务器
+//#define BaseUrlNow  @"http://192.168.1.138:8080"//
 
 
     //   魔蝎 公积金

@@ -367,7 +367,6 @@
         }else{
             NSString * msg = [responseDict[@"msg"] description];
             [kKeyWindow makeCenterToast:msg];
-            
         }
     } failure:^(__kindof YTKBaseRequest *request) {
         [SVProgressHUD dismiss];

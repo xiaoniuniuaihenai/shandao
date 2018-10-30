@@ -342,7 +342,7 @@
 
 #pragma mark - ConfigSubViews添加子控件
 - (void)configSubViews{
-    [self.view addSubview:self.topDescribeLabel];
+    [self.view addSubview:self.topDescribeLabel];// 暂未用到
     [self.view addSubview:self.tableView];
     self.tableView.tableHeaderView = self.goodsHeaderView;
     [self.view addSubview:self.goodsBottomView];

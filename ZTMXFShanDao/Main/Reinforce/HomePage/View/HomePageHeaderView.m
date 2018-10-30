@@ -193,7 +193,6 @@
         }
         
         self.promotionScrollView.imageURLStringsGroup = imageUrlArray;
-        
         self.promotionScrollView.frame = CGRectMake(0.0, CGRectGetMaxY(self.categoryCollectionView.frame), Main_Screen_Width, (Main_Screen_Width * (200.0 / 375.0)));
         self.gapView.frame = CGRectMake(0.0, CGRectGetMaxY(self.promotionScrollView.frame), Main_Screen_Width, 0.001);
         

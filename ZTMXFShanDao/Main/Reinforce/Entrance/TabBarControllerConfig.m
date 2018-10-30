@@ -64,7 +64,6 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
                                                                                              imageInsets:imageInsets
                                                                                  titlePositionAdjustment:titlePositionAdjustment];
 
-        
         [self customizeTabBarAppearance:tabBarController];
         _tabBarController = tabBarController;
     }

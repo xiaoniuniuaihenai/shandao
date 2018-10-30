@@ -501,6 +501,7 @@ static int shut = 1;
             selfWeak.loanModel = [LoanModel mj_objectWithKeyValues:responseDict[@"data"]];
             
             //   self Weak.pageName = [selfWeak.loanModel.canBorrow isEqualToString:@"T"] ? @"bs_ym_hqzy" : [selfWeak.loanModel.canBorrow isEqualToString:@"C"] ? @"bs_ym_jqzy" : @"";
+            
             [selfWeak.loanModel updateData];
             if ([selfWeak.loanModel.canBorrow isEqualToString:@"N"]) {
                 // 消费贷不可借钱显示借贷超市
@@ -695,7 +696,9 @@ static int shut = 1;
 //        [self.loanHeaderView showMeaageCount];
         self.tableView.hidden = NO;
         _loanHomeH5View.hidden = YES;
+        //展示通知角标
         [self showMeaageCount];
+        //加载首页数据
         [self loadLoanInfoData];
     }
     _classificationView.hidden = YES;

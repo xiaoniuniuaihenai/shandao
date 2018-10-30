@@ -518,8 +518,7 @@
     NSString *payString = [NSString stringWithFormat:@"  月供 %@ 起", monthPayStr];
     UIColor *redColor = [UIColor colorWithHexString:COLOR_RED_STR];
     [UILabel attributeWithLabel:self.monthPayLabel text:payString textColor:COLOR_GRAY_STR attributes:@[monthPayStr] attributeColors:@[redColor]];
-//
-    
+
 //    NSString *monthPayStr = @"0.00元";
 //    NSString *payString = [NSString stringWithFormat:@"  最高减免 %@", monthPayStr];
 //    NSArray * arr =[payString componentsSeparatedByString:@"."];

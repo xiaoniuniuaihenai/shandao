@@ -4,7 +4,7 @@
 //
 //  Created by panfei mao on 2018/1/13.
 //  Copyright © 2018年 LSCredit. All rights reserved.
-//取消订单提示框
+//  取消订单提示框
 
 #import <UIKit/UIKit.h>
 @class OrderGoodsInfoModel;

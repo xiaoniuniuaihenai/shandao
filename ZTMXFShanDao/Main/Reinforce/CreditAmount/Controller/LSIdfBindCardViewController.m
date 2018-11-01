@@ -79,8 +79,10 @@
     //V1.3.4新增埋点友盟已添加
     [ZTMXFUMengHelper mqEvent:k_bankcard_page_pv_xf];
     self.title = @"银行卡认证";
+    //键盘回收
     UITapGestureRecognizer * tapHeadGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapGestureHeadView)];
     [self.scrollView addGestureRecognizer:tapHeadGesture];
+    
     [self.view setBackgroundColor:[UIColor colorWithHexString:COLOR_WHITE_STR]];
     [self setupSubUI];
 //    埋点
@@ -118,7 +120,6 @@
     } failure:^(__kindof YTKBaseRequest *request) {
         
     }];
-
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -164,8 +165,6 @@
         [textField setText:newString];
         return NO;
 
-        
-        
 //        if (range.location >=Bank_LongMax&&![string isEqualToString:@""])
 //        {
 //            return NO;
@@ -284,7 +283,6 @@
     [self.navigationController pushViewController:webVc animated:YES];
     sender.userInteractionEnabled = YES;
     [self hideKeyboard];
-
 }
 
 #pragma mark -  绑定银行卡

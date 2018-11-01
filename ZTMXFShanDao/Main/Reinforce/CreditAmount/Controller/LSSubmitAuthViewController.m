@@ -74,7 +74,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.navigationItem.title = @"信用认证";
+    
     if (@available(iOS 11.0, *)) {
         self.mainScrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     } else {
@@ -97,9 +99,6 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(creditAuthChange) name:kCreditAuthChangePushNotification object:nil];
 }
-
-
-
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
 }

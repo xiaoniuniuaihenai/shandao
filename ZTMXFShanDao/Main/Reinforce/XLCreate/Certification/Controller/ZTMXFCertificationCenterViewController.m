@@ -42,6 +42,7 @@
     _headerView = [[ZTMXFCertificationHeaderView alloc] initWithFrame:CGRectMake(0.0, 0, Main_Screen_Width, 185 * PX)];
     _headerView.backgroundColor = [UIColor whiteColor];
     self.tableView.tableHeaderView = self.headerView;
+    
     if ([LoginManager loginState]) {
         //  登陆了获取数据
         [self requestCreditAuthStatus];

@@ -58,16 +58,28 @@
 
 @implementation ZTMXFCertificationListViewController
 
+
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self httpAuthCenterConfigureList];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //布局UI
     [self configUI];
-    [self httpAuthCenterConfigureList];
+    
+//    [self httpAuthCenterConfigureList];
+    
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    //刷新页面
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(creditAuthChange) name:kCreditAuthChangePushNotification object:nil];
     //V1.3.4新增埋点友盟已添加
     if (self.loanType == ConsumeLoanType) {
         [ZTMXFUMengHelper mqEvent:k_credit_page_pv_xf];
     }
+    //获取位置等信息
     @WeakObj(self);
     if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
         [[LSLocationManager shareLocationManager] locationSuccessWithComplish:^(AMapLocationReGeocode *locationGeocode, NSString *latitudeString, NSString *longitudeString) {
@@ -107,44 +119,30 @@
     
 }
 
+//获取通知认证状态刷新
 - (void)creditAuthChange
 {
     [self httpAuthCenterConfigureList];
     
 }
+//布局页面
 - (void)configUI{
     self.view.backgroundColor = K_BackgroundColor;
     [self.view addSubview:self.certificationCenterTopView];
     [self.view addSubview:self.collectionView];
 }
+//返回上一个页面增加提示
 - (void)clickReturnBackEvent
 {
     if (_authCenterConfigure.authTypeStatus == 1 || _authCenterConfigure.authTypeStatus == 2) {
         [self.navigationController popViewControllerAnimated:YES];
     }else{
-        
-        
         [ZTMXFMessageVoiceAlertView showVoiceWithMessageVoiceAlertType:XLMessageVoiceAlertCertification ConfirmBlock:^{
 
         } cancelBlock:^{
             [self.navigationController popViewControllerAnimated:YES];
-
         }];
-        
-        
-//        UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"" message:@"\n\n还差一步,钱就到手啦!\n您确定放弃成为土豪的机会?\n\n" preferredStyle:UIAlertControllerStyleAlert];
-//        UIAlertAction * action1 = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//            [self.navigationController popViewControllerAnimated:YES];
-//        }];
-//        UIAlertAction * action2 = [UIAlertAction actionWithTitle:@"继续认证" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//        }];
-//        [alert addAction:action1];
-//        [action1 setValue:[UIColor lightGrayColor] forKey:@"titleTextColor"];
-//
-//        [alert addAction:action2];
-//        [action2 setValue:COLOR_SRT(@"2B91F0") forKey:@"titleTextColor"];
-//        [self presentViewController:alert animated:YES completion:nil];
-}
+    }
 }
 
 
@@ -166,6 +164,7 @@
     }];
 }
 
+//刷新页面
 - (void)configurationFooter
 {
     //    int i = 0;
@@ -191,12 +190,9 @@
 
 
 
-
+//提交审核回调
 - (void)requestSubmitStrongRiskSuccess:(NSDictionary *)successDict
 {
-    
-    //提交审核回调
-    
     //后台打点
     NSMutableDictionary *pointInfo = [[NSMutableDictionary alloc]init];
     [pointInfo setObject:[XLServerBuriedPointHelper wifiName] forKey:@"wifiName"];
@@ -219,6 +215,7 @@
         [self.authViewModel requestCreditAuthInfoStatusWithType:@"3"];
     }
 }
+//点击提交审核
 - (void)submitBtnAction1
 {
     //提交审核
@@ -256,6 +253,8 @@
     [self.authViewModel requestSubmitStrongRiskApiWithAuthType:_loanType entranceType:@"1" Latitude:self.latitudeString Longitude:self.longitudeString];
     
 }
+
+
 #pragma mark -
 - (void)requestCreditAuthInfoSuccess:(LSAuthInfoModel *)authInfoModel
 {
@@ -279,11 +278,7 @@
     return _authViewModel;
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [self httpAuthCenterConfigureList];
-}
+
 
 - (void)httpAuthCenterConfigureList
 {
@@ -315,6 +310,7 @@
     }];
 }
 
+//通讯录认证成功 回调
 - (void)addressBookManagerAuthSuccess;
 {
     for (int i = 0; i < _authCenterConfigure.basicsItems.count; i++) {
@@ -330,7 +326,7 @@
     
 }
 
-#pragma mark - 魔蝎认证
+#pragma mark - 魔蝎认证--淘宝--京东
 /** 开始认证 */
 - (void)startMoXieAuthWithType:(AuthSupplyType)authType{
     //    self.authSupplyType = authType;
@@ -461,33 +457,33 @@
     } else if (indexPath.section == 1) {
         certificationStatus = _authCenterConfigure.eitherOrItems[indexPath.item];
     }
-    if (certificationStatus.sortBy != 1) {
-        for (XLCertificationStatus * status in _authCenterConfigure.basicsItems) {
-            if (certificationStatus.sortBy > status.sortBy ) {
-                if (status.authStatus != 1) {
-                    NSString * msg = [NSString stringWithFormat:@"%@未完成认证", status.authName];
-                    [self.view makeCenterToast:msg];
-                    return;
-                }
-            }
-        }
-    }
-    NSString * str = @"";
-    if (certificationStatus.authStatus == 1) {
-        str = [NSString stringWithFormat:@"%@已完成", certificationStatus.authName];
-    }else if (certificationStatus.authStatus == 2){
-        str = [NSString stringWithFormat:@"%@认证中", certificationStatus.authName];
-        if ([certificationStatus.authNameUnique isEqualToString:@"mobile_status"]) {
-            LSWebViewController *webVC = [[LSWebViewController alloc] init];
-            webVC.webUrlStr = DefineUrlString(k_mobile_identify);
-            [self.navigationController pushViewController:webVC animated:YES];
-            return;
-        }
-    }
-    if (str.length) {
-        [self.view makeCenterToast:str];
-        return;
-    }
+//    if (certificationStatus.sortBy != 1) {
+//        for (XLCertificationStatus * status in _authCenterConfigure.basicsItems) {
+//            if (certificationStatus.sortBy > status.sortBy ) {
+//                if (status.authStatus != 1) {
+//                    NSString * msg = [NSString stringWithFormat:@"%@未完成认证", status.authName];
+//                    [self.view makeCenterToast:msg];
+//                    return;
+//                }
+//            }
+//        }
+//    }
+//    NSString * str = @"";
+//    if (certificationStatus.authStatus == 1) {
+//        str = [NSString stringWithFormat:@"%@已完成", certificationStatus.authName];
+//    }else if (certificationStatus.authStatus == 2){
+//        str = [NSString stringWithFormat:@"%@认证中", certificationStatus.authName];
+//        if ([certificationStatus.authNameUnique isEqualToString:@"mobile_status"]) {
+//            LSWebViewController *webVC = [[LSWebViewController alloc] init];
+//            webVC.webUrlStr = DefineUrlString(k_mobile_identify);
+//            [self.navigationController pushViewController:webVC animated:YES];
+//            return;
+//        }
+//    }
+//    if (str.length) {
+//        [self.view makeCenterToast:str];
+//        return;
+//    }
     
     
     
@@ -534,6 +530,7 @@
     }else if ([certificationStatus.authNameUnique isEqualToString:@"mobile_status"]) {
         //后台打点
         [XLServerBuriedPointHelper xl_BuriedPointWithPointCode:@"xfd" PointSubCode:@"click.xfd_yysrz" OtherDict:nil];
+        //运营商认证
         LSPhoneOperationAuthViewController *PhoneOperationAuthVC = [[LSPhoneOperationAuthViewController alloc] init];
         PhoneOperationAuthVC.loanType = _loanType;
         PhoneOperationAuthVC.isJumpFromAuthVC = YES;

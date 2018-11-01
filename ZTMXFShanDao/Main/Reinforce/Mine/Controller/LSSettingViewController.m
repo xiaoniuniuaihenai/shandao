@@ -134,8 +134,6 @@
             LSFeedbackViewController * feedBackVc = [[LSFeedbackViewController alloc]init];
             [self.navigationController pushViewController:feedBackVc animated:YES];
         }
-    } else if ([title isEqualToString:@"消息中心"]) {
-        
     }
 }
 

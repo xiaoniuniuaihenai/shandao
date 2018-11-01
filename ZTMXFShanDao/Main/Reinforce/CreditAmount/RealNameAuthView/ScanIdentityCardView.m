@@ -225,9 +225,6 @@
     .topEqualToView(promptBtn)
     .heightIs(X(18))
     .widthIs(KW-50);
-    
-    
-  
 }
 
 - (UIImage *)headBackgroundImage{

@@ -209,7 +209,6 @@
     NSString *type = @"0";
     if (orderListModel.orderType == 1) {
         type = @"1";
-
     }else if (orderListModel.orderType == 2) {
         
     }

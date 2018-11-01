@@ -71,16 +71,17 @@
     [ZTMXFUMengHelper mqEvent:k_Idcard_page_pv_xf];
 
     self.navigationItem.title = @"身份认证";
+    //右边?按钮
     [self setNavgationBarRightImageStr:@"XL_WenHao"];
+    //添加主要视图
     [self configueSubviews];
     //  默认依图识别
     _authType = FacePlusAuthentication;
     //  获取认证类型
     [self.userInfoViewModel requestRealNameAuthType];
-   
-    //
+    //清除存储
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"isFirstFailure"];
-    //  添加子控制器
+    //  添加子控制器-人脸
     [self addFaceRecognitionVC];
     [self configFacePlusAuth];
 }
@@ -128,6 +129,7 @@
     }
 }
 
+//打开摄像头
 - (void)allowCamera
 {
     [ZTMXFPermissionsAlertView showAlert:XLPermissionsCamera Click:^{
@@ -164,6 +166,7 @@
     }];
 }
 
+//认证身份证返回
 - (void)certificationCardBack
 {
     [SVProgressHUD dismissAfterDuration:1 mask:NO complete:nil];
@@ -174,6 +177,7 @@
     if ([self isAlertIdentityView]) {
         return;
     }
+    //扫描身份证
     [self.facePlusManager fp_scanIdentityID:IDCARD_SIDE_BACK viewController:self];
    
 }
@@ -193,6 +197,7 @@
    
 }
 
+//认证失败 展示提示框
 - (BOOL)isAlertIdentityView{
     if (self.isFirstIdentityFailure) {
         [self.identityAlertView show];
@@ -265,6 +270,7 @@
 /** 正面身份证上传成功 */
 - (void)fp_uploadIdentityFrontImageSuccess:(IdentityFrontInfoModel *)frontInfoModel{
     [self.scanIdentityCardView showIdentityView];
+    //自动填写
     [self.scanIdentityCardView setIdentityName:frontInfoModel.cardInfo.name];
     [self.scanIdentityCardView setIdentityIdNumber:frontInfoModel.cardInfo.citizen_id];
     self.identityFrontInfoModel = frontInfoModel;
@@ -299,8 +305,8 @@
     BOOL result =[[NSUserDefaults standardUserDefaults]boolForKey:@"ZTMXFCertificationPromptViewShow"];
     if (!result) {
         [ZTMXFCertificationPromptView showCertificationPromptViewWithTimerInterval:5 Success:^{
+            //开始人脸识别
             [self.faceRecognitionVC startFaceRecognition];
-
         }];
     }else{
         [self.faceRecognitionVC startFaceRecognition];
